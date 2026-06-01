@@ -2,6 +2,7 @@
 import './App.css'
 import TestPage from './Pages/testPage'
 import UseReducer from './Pages/StateManagement/Hooks/useReducerHook'
+import UseRef from './Pages/useRef/useRef'
 import { Route, Routes } from 'react-router-dom'
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
       </Route>
       <Route path='/usereducer' element={<UseReducer/>}>
      UseReducer
+      </Route>
+         <Route path='/useref' element={<UseRef/>}>
+     UseRef
       </Route>
      </Routes>
     
