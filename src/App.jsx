@@ -5,12 +5,17 @@ import UseReducer from './Pages/StateManagement/Hooks/useReducerHook'
 import UseRef from './Pages/useRef/useRef'
 import UseEffect from './Pages/UseEffect/useEffect'
 import { Route, Routes } from 'react-router-dom'
+import UseOptimistic from './Pages/useOptmistic/useOptimistic'
 function App() {
 
   return (
     
      <Routes>
       <Route path='/' element={<TestPage/>}>
+      
+        Test
+      </Route>
+      <Route path='useoptimistic' element={<UseOptimistic/>}>
       
         Test
       </Route>
